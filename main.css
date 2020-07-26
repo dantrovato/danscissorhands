@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ======================================= */
+
+* {
+	text-align: center;
+}
+
+html {
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+	background-color: #B1A993;
+	color: beige;
+}
+
+header h1 {
+	font-size: 5rem;
+	padding-top: 2rem;
+	font-family: 'Gruppo', Helvetica, Arial, sans-serif;
+	font-size: 3rem;
+	height: 4rem;
+}
+
+header h2 {
+	font-size: 1rem;
+	font-family: 'Gruppo', Helvetica, Arial, sans-serif;
+	padding-bottom: 2rem;
+	border-bottom: 5px solid beige;
+}
+
+header a {
+	color: beige;
+	text-decoration: none;
+	font-family: 'Gruppo', Helvetica, Arial, sans-serif
+}
+
+header nav ul {
+  display: flex;
+	justify-content: space-around;
+	padding-bottom: 1rem;
+	border-bottom: 5px solid beige;
+}
+
+header nav ul li {
+  list-style: none;
+	padding-top: 0.8rem;
+}
+
+main {
+	background-image: url("./assets/schwarzcopf_main.png");
+	background-repeat: no-repeat;
+	height: 700px;
+	margin-top: -2.5rem;
+}
+
+footer {
+	padding: 1rem 0;
+	margin-top: -0.6rem;
+	border-top: 5px solid beige;
+	font-family: 'Gruppo', Helvetica, Arial, sans-serif;
+	/* border-bottom: 5px solid beige; */
+}
+
+section {
+	width: 60%;
+	margin: 2rem auto;
+	font-family: 'Gruppo', Helvetica, Arial, sans-serif;
+}
+
+.prices p {
+	text-align: left;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+}
+
+.about p {
+	line-height: 1.6;
+	font-size: 1.2rem;
+}
+
+.about img {
+	width: 100%;
+}
+
+@media (max-width: 560px) {
+	main {
+
+		background-position: -15rem 0rem;
+		width: 100%;
+	}
+}
