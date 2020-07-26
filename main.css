@@ -63,7 +63,7 @@ body {
 	color: beige;
 }
 
-header h1 {
+h1 {
 	font-size: 5rem;
 	padding-top: 2rem;
 	font-family: 'Gruppo', Helvetica, Arial, sans-serif;
@@ -72,10 +72,13 @@ header h1 {
 }
 
 header h2 {
-	font-size: 1rem;
+	border-bottom: 5px solid beige;
+}
+
+h2 {
+	font-size: 2rem;
 	font-family: 'Gruppo', Helvetica, Arial, sans-serif;
 	padding-bottom: 2rem;
-	border-bottom: 5px solid beige;
 }
 
 header a {
