@@ -114,13 +114,12 @@ section {
 
 .prices p {
 	text-align: left;
-	font-size: 2rem;
 	padding: 0.5rem;
 }
 
 p {
 	line-height: 1.6;
-	font-size: 2.2rem;
+	font-size: 2.6rem;
 }
 
 img {
@@ -140,9 +139,6 @@ img {
 
 	footer {
 		padding: 3rem 0;
-		/* margin-top: -0.6rem; */
 		border-top: 5px solid beige;
 		font-family: 'Gruppo', Helvetica, Arial, sans-serif;
-		/* border-bottom: 5px solid beige; */
-		font-size: 3rem;
 	}
