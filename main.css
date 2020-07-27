@@ -63,6 +63,10 @@ body {
 	color: beige;
 }
 
+header {
+	/* border-bottom: 5px solid beige; */
+}
+
 h1 {
 	font-size: 5rem;
 	padding-top: 2rem;
@@ -72,7 +76,7 @@ h1 {
 }
 
 header h2 {
-	border-bottom: 5px solid beige;
+
 }
 
 h2 {
@@ -103,7 +107,7 @@ main {
 	background-image: url("./assets/schwarzcopf_main.png");
 	background-repeat: no-repeat;
 	height: 700px;
-	margin-top: -2.5rem;
+	/* margin-top: -2.5rem; */
 }
 
 footer {
@@ -135,10 +139,13 @@ section {
 	width: 100%;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 750px) {
 	main {
-
 		background-position: -15rem 0rem;
 		width: 100%;
+	}
+
+	h1 {
+		font-size: 5rem;
 	}
 }
