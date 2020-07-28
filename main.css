@@ -164,3 +164,15 @@ img {
 		border-radius: 5px;
     box-shadow: 10px 5px 5px grey;
 	}
+
+	/* ========================================================================== */
+
+	/* gallery */
+	.before_after {
+		display: flex;
+		width: 100%;
+	}
+
+	.before_after img {
+		width: 50%;
+	}
