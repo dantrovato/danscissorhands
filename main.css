@@ -168,7 +168,7 @@ footer {
 }
 /* ========================================================================== */
 
-/* gallery */
+/* gallery.html */
 .before_after {
 	display: flex;
 	width: 100%;
@@ -182,4 +182,13 @@ footer {
 .giacomoafter {
 	max-height: 50%;
 	/* object-fit: scale-down; */
+}
+
+/* ========================================================================== */
+
+/* products.html */
+
+.products {
+	height: 15rem;
+	width: auto;
 }
