@@ -80,11 +80,11 @@ h2 {
 	padding-bottom: 2rem;
 }
 
-/* header a {
+a {
 	color: beige;
 	text-decoration: none;
 	font-family: Helvetica, Arial, sans-serif
-} */
+}
 
 header nav ul {
   display: flex;
