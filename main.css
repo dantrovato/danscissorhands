@@ -100,10 +100,11 @@ header nav ul li {
 
 .logo {
 	background-color: beige;
+	margin-bottom: 3rem;
 }
 
 main {
-	margin-top: -5.9rem;
+	margin-top: -2rem;
 	/* margin-top: 0; */
 }
 
@@ -212,8 +213,3 @@ footer {
 }
 
 /* =========================================================================== */
-
-.crystal {
-	height: 30rem;
-	width: auto;
-}
