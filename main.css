@@ -120,7 +120,8 @@ section {
 }
 
 .about p {
-	padding: 3rem 0;
+	padding: 0;
+	padding-bottom: 2.5rem;
 }
 
 .prices {
