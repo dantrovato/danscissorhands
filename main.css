@@ -103,10 +103,9 @@ header nav ul li {
 	margin-bottom: 3rem;
 }
 
-main {
+/* main {
 	margin-top: -2rem;
-	/* margin-top: 0; */
-}
+} */
 
 section {
 	width: 80%;
@@ -147,7 +146,7 @@ p {
 
 img {
 	width: 100%;
-	height: auto;
+	/* height: auto; */
 	margin: 1rem;
 }
 
