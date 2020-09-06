@@ -49,6 +49,12 @@ table {
 
 /* ======================================= */
 
+@media (min-width: 750px) {
+	 section p {
+		font-size: 1.8rem;
+		}
+	}
+
 * {
 	text-align: center;
 }
@@ -159,12 +165,6 @@ img {
 	margin: 4rem 0;
 	box-shadow: -5px 5px 5px grey;
 }
-
-/* @media (min-width: 750px) {
-	 p {
-		font-size: 1.8rem;
-		}
-	} */
 
 footer {
 	margin-top: 5.5rem;
